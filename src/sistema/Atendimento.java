@@ -33,11 +33,12 @@ public class Atendimento extends Paciente {
 		
 	}
 
-	public static void iniciaNovoAtendimento() {
+	public  void iniciaNovoAtendimento() {
 		System.out.println("---------------------------------------");
 		System.out.println("           NOVO ATENDIMENTO            ");
 		System.out.println("---------------------------------------");
 
+		//eu mudei isso para commitar
 		Scanner leitura = new Scanner(System.in);
 		System.out.println("Digite a hora e o minuto de atendimento do paciente: ");
 		int horaAtendimento = leitura.nextInt();
