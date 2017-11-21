@@ -33,7 +33,7 @@ public class Atendimento extends Paciente {
 		
 	}
 
-	public  void iniciaNovoAtendimento() {
+	public static  void iniciaNovoAtendimento() {
 		System.out.println("---------------------------------------");
 		System.out.println("           NOVO ATENDIMENTO            ");
 		System.out.println("---------------------------------------");
